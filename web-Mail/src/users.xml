@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<package name="qiujy" extends="struts-default">
+	<action name="login" class="usersAction">
+		<result name="success">/1.jsp</result>
+		<result name="error">/error.jsp</result>
+	</action>
+</package>
